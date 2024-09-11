@@ -24,3 +24,30 @@ h1{
     color: #c21a76;
 }
 
+.galeria img{
+    width: 30%;
+    height: 360px;
+    border-radius: 50px;
+    transition: transform 0.2s;
+}
+
+.galeria img:hover{
+    transform: scale(1.05);
+}
+
+h2{
+    color:#c21a76
+}
+
+.biografia{
+    display: flex;
+}
+
+.biografia img{
+    width: 200px; /*mudar a largura*/
+}
+
+.biografia p{
+    max-width: 50%;
+    color: #c21a76;
+}
