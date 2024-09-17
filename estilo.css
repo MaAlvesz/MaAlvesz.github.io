@@ -65,3 +65,29 @@ h2{
 .contato{
     padding: 80px;
 }
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.projetos img{
+    width: 200px; /*mudar a largura*/
+}
+
+.projetos p{
+    max-width: 50%;
+    color: #c21a76;
+}
+.item-projeto {
+    display: flex;
+  
+}
+
+.tudo {
+    display: flex;
+    justify-content: center;
+}
